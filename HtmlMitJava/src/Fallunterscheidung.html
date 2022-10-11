@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>versuche</title>
+    </head>
+    <body>
+        <p id="hier"></p>
+        <script type="text/javascript">
+            let anzahl = 1;
+            var text;
+            do{
+            text = window.prompt( anzahl + ".Versuch: Was bedeuteet DQM?", "dynamischer");
+            anzahl++;
+            }while (anzahl < 4 || text == "dynamischer Quellcodemanipulierer");
+
+            if(text != 'dynamischer Quellcodemanipulierer'){
+                document.getElementById("hier").innerHTML = "Kein Zutritt für Volltrottel!";
+            } else {
+            }
+        </script>
+    </body>
+</html>

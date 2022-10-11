@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GridLayoutUebung/GridLayoutUebung.iml" filepath="$PROJECT_DIR$/GridLayoutUebung/GridLayoutUebung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HtmlMitJava/HtmlMitJava.iml" filepath="$PROJECT_DIR$/HtmlMitJava/HtmlMitJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LF04_HTML.iml" filepath="$PROJECT_DIR$/.idea/LF04_HTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/UebungErsteSeite/UebungErsteSeite.iml" filepath="$PROJECT_DIR$/UebungErsteSeite/UebungErsteSeite.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZweiteHtmlSeite/ZweiteHtmlSeite.iml" filepath="$PROJECT_DIR$/ZweiteHtmlSeite/ZweiteHtmlSeite.iml" />

@@ -10,7 +10,6 @@ div{
     background-size: cover;
     background-position: left;
     color: yellow;
-    text-shadow: 1px 1px 2px black;
 }
 table{
     margin-right: auto;
@@ -35,4 +34,8 @@ h1,h2{
 
 p{
     margin: 1em;
+}
+
+#p1{
+    text-shadow: 1px 1px 2px black;
 }

@@ -7,17 +7,26 @@
     <body>
         <p id="hier"></p>
         <script type="text/javascript">
-            let anzahl = 1;
+            for(let i = 1; i <=3 ; i++){
+                let text = window.prompt( i + ".Versuch: Was bedeuteet DQM?", "dynamischer");
+                if(text == 'dynamischer Quellcodemanipulierer'){
+                    location.href= "http://www.szut.de/";
+                } else{
+                    document.getElementById("hier").innerHTML = "Kein Zutritt für Volltrottel!";
+                }
+            }
+            /*let anzahl = 1;
             var text;
             do{
-            text = window.prompt( anzahl + ".Versuch: Was bedeuteet DQM?", "dynamischer");
-            anzahl++;
-            }while (anzahl < 4 || text == "dynamischer Quellcodemanipulierer");
+                text = window.prompt( anzahl + ".Versuch: Was bedeuteet DQM?", "dynamischer");
+                if(text !== 'dynamischer Quellcodemanipulierer'){
+                    document.getElementById("hier").innerHTML = "Kein Zutritt für Volltrottel!";
+                } else{
+                    location.href= "http://www.szut.de/";
+                }
+                anzahl++;
+            }while (anzahl < 4 && text !== "dynamischer Quellcodemanipulierer");*/
 
-            if(text != 'dynamischer Quellcodemanipulierer'){
-                document.getElementById("hier").innerHTML = "Kein Zutritt für Volltrottel!";
-            } else {
-            }
         </script>
     </body>
 </html>

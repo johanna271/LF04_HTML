@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Johanna">
+    <meta http-equiv="expires" content="3600">
+    <meta name="robots" content="nofollow">
+    <link rel="stylesheet" type="text/css" href="1.css" media="screen">
+    <script src="BMIRechnung.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI rechner</title>
+  </head>
+  <body>
+    <h1><strong>Body-Mass-Index-Rechner</strong></h1>
+    <h2>Online-BMI-Berechnung für Erwachsene</h2>
+    <img src="../../Inhalte/KSB-Blog_BMI_Content-01.png" alt=" auf dem bild sieht man die bmis"><br>
+    Ein BMI-Rechner für Kinder finden Sie hier: <a href="https://youtu.be/oHg5SJYRHA0" target="_blank">BZgA-BMI-Rechner für Kinder</a>
+    <div>
+      <p>
+        Bitte geben Sie Ihre Körpergröße ein:<br>
+        Körpergröße <strong>in cm</strong>: <input type="number" id="groesse"><br><br>
+        Bitte geben Sie Ihr Körpergewicht ein:<br><br>
+        Körpergewicht <strong>in kg</strong>: <input type="number" id="gewicht"><br>
+        <button type="button" onclick="rechnen()">Rechnen</button><br><br>
+        Ihr Body-Mass-Index beträgt:<br><br>
+        BMI-Wert: <output id="ergebnis"></output> <br> <br>
+        <br> <br> <output id="text"></output>
+      </p>
+    </div>
+    <h2>Bedeutung des BMI-Wertes bei Erwachsenen:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>BMI-Wert</th>
+          <th>Bedeutung</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>unter 18,5</td>
+          <td>Untergewicht</td>
+        </tr>
+        <tr>
+          <td>18,5-24,9</td>
+          <td>Normalgewicht</td>
+        </tr>
+        <tr>
+          <td>25-29,9</td>
+          <td>Übergewicht</td>
+        </tr>
+        <tr>
+          <td>ab 30</td>
+          <td>Adipositas</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

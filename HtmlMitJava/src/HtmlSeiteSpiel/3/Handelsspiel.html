@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Johanna">
+    <meta http-equiv="expires" content="3600">
+    <meta name="robots" content="nofollow">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <script src="Handelsspiel.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handels Spiel</title>
+</head>
+<body>
+    <h1>Handelsspiel</h1>
+    <h2>Recourcen</h2>
+    <form action="select.html">
+        <label>Weleche Recourcen hast du?:
+            <select name="Recourcen">
+                <option>Holz</option>
+                <option>Wasser</option>
+                <option>Kohle</option>
+                <option>Weizen</option>
+                <option>Gold</option>
+                <option>Uran</option>
+                <option>Technologie</option>
+            </select>
+        </label>
+    </form>
+    Wie viel bekommen sie von <output name="option" id="recource"></output> pro Runde: <input type="number" id="groesse"><br><br>
+    <button type="button" onclick="abgabe()">Submit</button>
+    <div>
+        Deine Recourcen
+        <table>
+            <thead>
+                <tr>
+                    <th>Holz</th>
+                    <th>Wasser</th>
+                    <th>Kohle</th>
+                    <th>Weizen</th>
+                    <th>Gold</th>
+                    <th>Uran</th>
+                    <th>Technologie</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><output name="anzahlHolz" id="anzahlHolz"><output/></td>
+                    <td><output name="anzahlWasser" id="anzahlWasser"></td>
+                    <td><output name="anzahlKohle" id="anzahlKohle"></td>
+                    <td><output name="anzahlWeizen" id="anzahlWeizen"></td>
+                    <td><output name="anzahlGold" id="anzahlGold"></td>
+                    <td><output name="anzahlUran" id="anzahlUran"></td>
+                    <td><output name="anzahlTechnologie" id="anzahlTechnologie"></td>
+                <tr/>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.viewport-header {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color: #A770EF;
+    margin: 15em;
+}
+
+button {
+    background: #A770EF;
+    background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);
+    background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);
+    color: #fff;
+    border: 3px solid #eee;
+    width:10em;
+}
+
+
